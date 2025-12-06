@@ -2,11 +2,11 @@
 
 ## What Copilot created
 
-In this project I used Github Copilot to assit me with the two functions `load_data` and `clean_column_names`. To get the suggestions to pop up, I started each function with a comment explaining what the function should do and then Copoliot created a response for loading the data and cleaning the colomns names. One of the things it did was replace spaces with underscores. The suggestions it gave helped me worked more effciently and build a stronger structure to my code.
+In this project, I used GitHub Copilot to assist me with the two functions `load_data` and `clean_column_names`. To get the suggestions to pop up, I started each function with a comment explaining what the function should do, and then Copoliot created a response for loading the data and cleaning the column names. One of the things it did was replace spaces with underscores. The suggestions it gave helped me work more efficiently and build a stronger structure to my code.
 
 ## What I Modified
 
-During this assignment Copilot made the initial drafts, but I made modifications to work with the actual dataset and to prevent errors. For `load_data`, I added a `try/except` block and replaced the default behavior with a safer fallback return of an empty DataFrame instead of `None`. This prevented other functions from crashing if the file path was wrong. For `clean_column_names`, I made Copilot’s suggestion bigger by adding more checks, including replacing dashes with underscores and making sure all column names were lowercase.
+During this assignment, Copilot made the initial drafts, but I made modifications to work with the actual dataset and to prevent errors. For `load_data`, I added a `try/except` block and replaced the default behavior with a safer fallback return of an empty DataFrame instead of `None`. This prevented other functions from crashing if the file path was wrong. For `clean_column_names`, I made Copilot’s suggestion bigger by adding more checks, including replacing dashes with underscores and making sure all column names were lowercase.
 
 Besides those two functions, I also wrote another cleaning step myself, which was `standardize_core_columns`. Its job was converting text to numeric values with `pd.to_numeric`, removing negative values, and dealing with missing values. These changes were necessary because the real dataset had problems that Copilot's suggestions could not help fix. Making these changes helped me make sure the script could run fully without errors.
 
