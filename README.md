@@ -1,6 +1,6 @@
 # ISM2411 Data Cleaning with GitHub Copilot
 
-This project shows a simple, professional data cleaning project, created using Python and GitHub Copilot. The goal was to take a messy sales dataset and make it into a clean version that can be used for analysis. This repository follows a clear structure, that includes a cleaning script, and documents how AI tools were used during development.
+This project shows a simple, professional data cleaning project, created using Python and GitHub Copilot. The goal was to take a messy sales dataset and make it into a clean version that can be used for analysis. This repository follows a clear structure that includes a cleaning script, and documents how AI tools were used during development.
 
 ## Project Structure
 
